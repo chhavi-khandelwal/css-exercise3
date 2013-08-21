@@ -3,12 +3,12 @@
 }
 #inner-top {
   border-bottom: 2px solid #db2927;
-  width:1170px;
-  height:75px;
+  width:100%;
+  height:auto;
+  display: inline-block;
 }
 #inner-top-left {
-  float: left;
-  padding-top: 10px;       
+  padding-top: 10px;
   margin-right: 10px;
   width: 200px;
   height: 70px;
@@ -21,7 +21,6 @@
   font-family: tahoma;
   font-size: 13px;
   color: black;
-  margin-top: 50px;
 }
 #contact-mail {
   float: right;
@@ -40,27 +39,25 @@
   vertical-align: top;
 }
 #inner-bottom {
-  display: inline-block;
-  width: 1000px;
+  width: 550px;
   height: 750px;
+  margin: 0 auto;
 }
 #inner-head {
   font-family: tahoma;
   font-size: 18px;
   color: #2c286d;
-  margin-left: 250px;
   margin-top: 20px;
 }
- #inner-form {
+#inner-form {
   display: inline;
- }
+}
 #main-form {
   border: 1px solid #bcbcbc;
   background-color: #ececec;
   width: 550px;
   height: 500px;
   padding: 20px 25px;
-  margin-left: 250px;
 }
 .form-label {
   display: inline-block;
